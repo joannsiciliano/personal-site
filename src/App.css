@@ -25,16 +25,24 @@ h2 {
   margin: 25px;
 }
 
-a:hover {
+.Navbar a:hover {
   color: lightblue;
 }
 .NavBarDiv {
   width: 100%;
 }
-.prose img {
-  margin: auto;
+.BlogImage {
   border-radius: 5px;
+  width: 350px;
+  margin: 10px;
 }
-.home-name {
-  font-size: 150px;
+.BlogPostTitle {
+  font-size: 20px;
+  font-family: "Major Mono Display", monospace;
+  width: 25%;
+  padding-bottom: 10px;
+}
+.h3Span {
+  width: 50%;
+  text-align: center;
 }

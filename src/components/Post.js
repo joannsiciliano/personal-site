@@ -33,15 +33,16 @@ export default function Post() {
         <div>
           {postData &&
             postData.map((post, index) => (
-              <article>
+              <article className="BlogArticle">
                 <Link to={"/post/" + post.slug.current} key={post.slug.current}>
                   <span className="BlogSpan">
                     <img
                       src={post.mainImage.asset.url}
                       alt={post.mainImage.alt}
+                      className="BlogImage"
                     />
                     <span className="h3Span">
-                      <h3>{post.title}</h3>
+                      <h3 className="BlogPostTitle">{post.title}</h3>
                     </span>
                   </span>
                 </Link>
