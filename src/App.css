@@ -1,11 +1,35 @@
-@import url("https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css");
-@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
 @import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
 /* font-family: 'Major Mono Display', monospace; */
-
-.cursive {
+header {
+  background-color: red;
+}
+h1 {
+  font-size: 50px;
+  font-family: "Major Mono Display", monospace;
+}
+h2 {
+  font-size: 30px;
+  font-family: "Major Mono Display", monospace;
+}
+.NavBar {
   font-family: "Major Mono Display", monospace;
   font-weight: 700;
+  font-size: 50px;
+  padding: 10px;
+  color: white;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+}
+.NavBar a {
+  margin: 25px;
+}
+
+a:hover {
+  color: lightblue;
+}
+.NavBarDiv {
+  width: 100%;
 }
 .prose img {
   margin: auto;
