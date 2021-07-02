@@ -26,8 +26,8 @@ h2 {
   margin: 50px;
 }
 
-.Navbar a:hover {
-  color: lightblue;
+.NavBar a:hover {
+  color: rgb(238, 255, 0);
 }
 .NavBarDiv {
   width: 100%;

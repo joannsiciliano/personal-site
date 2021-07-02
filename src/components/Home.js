@@ -13,6 +13,7 @@ export default function Home() {
       </section>
       <div className={HomeCSS.NameDiv}>
         <h1>Hi! I'm Jo.</h1>
+        <h2>// Full Stack Software Engineer</h2>
       </div>
     </div>
   );
