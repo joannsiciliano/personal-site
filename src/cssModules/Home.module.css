@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+  color: white;
+}
+.HomePage {
+  width: 100%;
+}
+.LinkSection {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.LinkSection a {
+  margin: 10px;
+  font-family: "Major Mono Display", monospace;
+}
+
+.LinkSection a:hover {
+  margin: 15px;
+  font-family: "Major Mono Display", monospace;
+}
+.NameDiv {
+  text-align: center;
+  margin-top: 250px;
+}

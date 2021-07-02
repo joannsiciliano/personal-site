@@ -1,7 +1,7 @@
 @import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
 /* font-family: 'Major Mono Display', monospace; */
 header {
-  background-color: red;
+  background-color: blue;
 }
 h1 {
   font-size: 50px;
@@ -20,9 +20,10 @@ h2 {
   width: auto;
   display: flex;
   flex-direction: row;
+  height: 150px;
 }
 .NavBar a {
-  margin: 25px;
+  margin: 50px;
 }
 
 .Navbar a:hover {
