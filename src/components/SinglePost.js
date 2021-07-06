@@ -42,21 +42,14 @@ export default function SinglePost() {
           <div className="Div1SinglePost">
             <div className="Div1SinglePost">
               <h1 className="H1SinglePost"> {singlePost.title}</h1>
-              <div className="Div3SinglePost">
-                <img
-                  src={urlFor(singlePost.authorImage).url()}
-                  alt={singlePost.name}
-                  className="SinglePostImage"
-                />
-              </div>
-              <p className="SinglePostParagraph">{singlePost.name}</p>
+              <div className="Div3SinglePost"></div>
             </div>
           </div>
           <img
             src={singlePost.mainImage.asset.url}
             alt={singlePost.title}
             className="SinglePostImage2"
-            style={{ height: "400px" }}
+            style={{ height: "950px" }}
           />
         </header>
         <div className="SinglePostBlockContent">

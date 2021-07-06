@@ -11,6 +11,9 @@ export default function Home() {
         <a href="https://github.com/joannsiciliano" target="_blank">
           Github
         </a>
+        <a href="https://joannsiciliano.medium.com/" target="_blank">
+          Blog
+        </a>
 
         <a href="mailto:joannsiciliano.dev@gmail.com">Email</a>
       </section>

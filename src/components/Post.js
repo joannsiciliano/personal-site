@@ -28,8 +28,8 @@ export default function Post() {
   return (
     <main>
       <section>
-        <h1>Blog Posts</h1>
-        <h2>welcome to my brain </h2>
+        <h1>Artworks</h1>
+        <h2> Digital and Generative </h2>
         <div>
           {postData &&
             postData.map((post, index) => (

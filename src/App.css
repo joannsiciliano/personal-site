@@ -139,3 +139,7 @@ h2 {
 .DemoLink:hover {
   color: rgb(255, 255, 255);
 }
+.HomeButton {
+  font-size: 80px;
+  margin-bottom: 30px;
+}
