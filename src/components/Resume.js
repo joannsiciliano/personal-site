@@ -4,7 +4,9 @@ import resume from "./JRSdevresume2021.png";
 export default function Resume() {
   return (
     <div className="ResumeDiv">
-      <img src={resume} className="Resume" />
+      <a href="https://github.com/joannsiciliano/" target="_blank">
+        <img src={resume} className="Resume" />
+      </a>
     </div>
   );
 }
