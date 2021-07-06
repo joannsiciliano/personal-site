@@ -89,3 +89,53 @@ h2 {
   display: flex;
   flex-direction: row;
 }
+.ProjectMain {
+  text-align: center;
+  padding: 20px;
+}
+.ProjectH3 {
+  color: rgb(255, 24, 113);
+  font-weight: 700;
+  font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  text-shadow: -1px 0px 1px rgba(0, 0, 255, 1),
+    1px 1px 1px rgba(0, 255, 0, 0.75), -2px 2px 2px rgba(255, 0, 0, 0.75);
+}
+.ProjectH3:hover {
+  color: white;
+}
+.ProjectDiv {
+  padding: 45px;
+  border: solid 1px white;
+  border-radius: 5px;
+  width: 350px;
+  margin: auto;
+}
+.ProjectArticle-1 {
+  border: solid 3px white;
+  border-radius: 5px;
+  padding-bottom: 15px;
+  width: 500px;
+  margin: 20px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  font-family: "Major Mono Display", monospace;
+  height: 400px;
+}
+.ProjectSec-2 {
+  display: flex;
+  flex-direction: row;
+}
+.DemoLink {
+  color: rgb(178, 236, 43);
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  text-shadow: -1px 2px 1px rgb(248, 168, 255),
+    2px 2px 2px rgba(0, 255, 0, 0.75);
+}
+.DemoLink:hover {
+  color: rgb(255, 255, 255);
+}

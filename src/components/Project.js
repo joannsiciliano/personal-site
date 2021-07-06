@@ -24,7 +24,7 @@ export default function Project() {
       <section className="ProjectSec-1">
         <h1 className="ProjectH1">Recent Projects</h1>
         <h2 className="ProjectH2">
-          Here's a list of completed projects I've done!
+          Check out the description and click the link for demos!
         </h2>
         <section className="ProjectSec-2">
           {projectData &&
@@ -36,22 +36,9 @@ export default function Project() {
                   </a>
                 </h3>
                 <div className="ProjectDiv">
-                  <span>
-                    <strong>Finished on</strong>:{" "}
-                    {new Date(project.date).toLocaleDateString()}
-                  </span>
-                  <span>
-                    <strong>Company:</strong>: {project.place}
-                  </span>
-                  <span>
-                    <strong>Type:</strong> {project.projectType}
-                  </span>
                   <p className="ProjectP">{project.description}</p>
-                  <a href={project.link} target="_blank">
-                    View The Project{" "}
-                    <span role="img" aria-label="right pointer">
-                      Here
-                    </span>
+                  <a href={project.link} target="_blank" className="DemoLink">
+                    View Demo
                   </a>
                 </div>
               </article>
