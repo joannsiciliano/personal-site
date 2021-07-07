@@ -28,8 +28,10 @@ export default function Post() {
   return (
     <main>
       <section className="ArtSection">
-        <h1>Artworks</h1>
-        <h2> Digital and Generative </h2>
+        <div className="ArtText">
+          <h1>Digital and Generative Design</h1>
+          <h2> // click for detail </h2>
+        </div>
         <div className="ArtDiv">
           {postData &&
             postData.map((post, index) => (

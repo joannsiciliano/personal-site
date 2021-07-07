@@ -3,7 +3,7 @@ import sanityClient from "../client.js";
 import { useParams } from "react-router-dom";
 import imageUrlBuilder from "@sanity/image-url";
 import BlockContent from "@sanity/block-content-to-react";
-
+import SinglePostCSS from "../cssModules/Singlepost.module.css";
 const builder = imageUrlBuilder(sanityClient);
 function urlFor(source) {
   return builder.image(source);
@@ -36,23 +36,25 @@ export default function SinglePost() {
   }, [slug]);
   if (!singlePost) return <div> Loading...</div>;
   return (
-    <main className="MainSinglePost">
+    <main className={SinglePostCSS.MainSinglePost}>
       <article className="ArticleSinglePost">
-        <header className="HeaderSinglePost">
+        <div className="HeaderSinglePost">
           <div className="Div1SinglePost">
-            <div className="Div1SinglePost">
-              <h1 className="H1SinglePost"> {singlePost.title}</h1>
+            <div className={SinglePostCSS.Div1SinglePost}>
+              <h1 className={SinglePostCSS.H1SinglePost}>
+                {" "}
+                {singlePost.title}
+              </h1>
               <div className="Div3SinglePost"></div>
             </div>
           </div>
           <img
             src={singlePost.mainImage.asset.url}
             alt={singlePost.title}
-            className="SinglePostImage2"
-            style={{ height: "950px" }}
+            className={SinglePostCSS.SinglePostImage2}
           />
-        </header>
-        <div className="SinglePostBlockContent">
+        </div>
+        <div className={SinglePostCSS.SinglePostBlockContent}>
           {" "}
           <BlockContent
             blocks={singlePost.body}

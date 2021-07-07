@@ -31,14 +31,18 @@ h2 {
 
 .NavBar a:hover {
   color: rgb(238, 255, 0);
+  text-decoration: line-through;
 }
+
 .NavBarDiv {
   width: 100%;
 }
 .BlogImage {
-  border-radius: 5px;
+  border-radius: 7px;
   width: 350px;
   margin: 10px;
+  border: solid 1px lightblue;
+  box-shadow: -1px -1px 2px red, 2px 2px 2px green, -2px -2px 2px blue;
 }
 .BlogPostTitle {
   font-size: 20px;
@@ -56,7 +60,7 @@ h2 {
 }
 .AboutDiv h2 {
   font-size: 40px;
-  /* color: aquamarine; */
+  color: aquamarine;
   font-weight: 700;
   text-transform: uppercase;
   text-shadow: 0.05rem 0 0 rgba(255, 0, 0, 0.75),
@@ -79,6 +83,9 @@ h2 {
   font-size: 24px;
   margin-bottom: 20px;
 }
+.LinkDiv {
+  margin-top: 20px;
+}
 .ParagraphDiv p {
   margin: 10px;
 }
@@ -96,13 +103,21 @@ h2 {
   text-align: center;
   padding: 20px;
 }
+.ProjectH1 {
+  color: lightblue;
+  padding-bottom: 10px;
+  text-shadow: -1px 0px 1px rgba(0, 0, 255, 1),
+    1px 1px 1px rgba(0, 255, 0, 0.75), -2px 2px 2px rgba(255, 0, 0, 0.75);
+}
+.ProjectH2 {
+  color: rgb(53, 53, 53);
+}
 .ProjectH3 {
-  color: rgb(255, 24, 113);
+  color: rgba(255, 255, 255, 0.5);
   font-weight: 700;
   font-size: 30px;
-  padding-top: 30px;
+  padding-top: 15px;
   padding-bottom: 10px;
-  text-transform: uppercase;
   text-shadow: -1px 0px 1px rgba(0, 0, 255, 1),
     1px 1px 1px rgba(0, 255, 0, 0.75), -2px 2px 2px rgba(255, 0, 0, 0.75);
 }
@@ -110,34 +125,45 @@ h2 {
   color: white;
 }
 .ProjectDiv {
-  padding: 45px;
-  border: solid 1px white;
-  border-radius: 5px;
+  width: 30%;
+  padding: 30px;
+  border-radius: 1rem;
+  /* border: 1px solid white; */
+  /* box-shadow: -1px -1px 2px red, 2px 2px 2px green, -2px -2px 2px blue; */
   width: 350px;
   margin: auto;
 }
+
 .ProjectArticle-1 {
-  border: solid 3px white;
-  border-radius: 5px;
+  border-radius: 2rem;
+  border: 2px solid lightblue;
+  box-shadow: 1px 1px 5px lightblue;
   padding-bottom: 15px;
   width: 500px;
   margin: 20px;
   margin-bottom: 20px;
   margin-top: 15px;
   font-family: "Major Mono Display", monospace;
-  height: 400px;
+  height: 360px;
+}
+.ProjectSec-1 h1 {
+  text-decoration: underline;
+}
+.ProjectSec-1 h2 {
+  color: rgb(61, 61, 61);
+  margin-bottom: 15px;
 }
 .ProjectSec-2 {
   display: flex;
   flex-direction: row;
 }
 .DemoLink {
-  color: rgb(178, 236, 43);
+  color: rgb(255, 0, 0);
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 600;
-  text-shadow: -1px 2px 1px rgb(248, 168, 255),
-    2px 2px 2px rgba(0, 255, 0, 0.75);
+  /* text-shadow: -1px 2px 1px rgb(248, 168, 255),
+    2px 2px 2px rgba(0, 255, 0, 0.75); */
 }
 .DemoLink:hover {
   color: rgb(255, 255, 255);
@@ -151,7 +177,7 @@ h2 {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: flex-start;
-  margin: 10px;
+  margin: auto;
   padding: 10px;
   max-width: 100%;
 }
@@ -167,6 +193,17 @@ h2 {
 }
 .ArtSection {
   width: 100%;
+  margin: auto;
+}
+.ArtText {
+  text-align: center;
+}
+.ArtText h1 {
+  text-decoration: underline;
+  margin-top: 15px;
+}
+.ArtText h2 {
+  color: rgb(65, 65, 65);
 }
 .Resume {
   width: 97%;

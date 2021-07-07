@@ -22,9 +22,9 @@ export default function Project() {
   return (
     <main className="ProjectMain">
       <section className="ProjectSec-1">
-        <h1 className="ProjectH1">Recent Projects</h1>
-        <h2 className="ProjectH2">
-          Check out the description and click the link for demos!
+        <h1>Recent Projects </h1>
+        <h2>
+          // check out the description and click the links for demos and repos
         </h2>
         <section className="ProjectSec-2">
           {projectData &&
@@ -37,9 +37,11 @@ export default function Project() {
                 </h3>
                 <div className="ProjectDiv">
                   <p className="ProjectP">{project.description}</p>
-                  <a href={project.link} target="_blank" className="DemoLink">
-                    View Demo
-                  </a>
+                  <div className="LinkDiv">
+                    <a href={project.link} target="_blank" className="DemoLink">
+                      View Demo
+                    </a>
+                  </div>
                 </div>
               </article>
             ))}
