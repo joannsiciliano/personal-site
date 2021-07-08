@@ -28,6 +28,7 @@ export default function Home() {
           </span>
         </div>
       </div>
+      <h2 className={HomeCSS.SecretH2}>click the screen for a treat ☺︎</h2>
     </div>
   );
 }

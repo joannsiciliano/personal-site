@@ -2,14 +2,9 @@ body {
   background-color: black;
   color: white;
 }
-/* .HomePage {
-  width: 100%;
-  background-image: url("https://i.imgur.com/Hxg1q5n.gif");
-  background-repeat: no-repeat;
-  background-position-x: center;
-
-  background-position-y: center;
-} */
+.HomePage {
+  text-align: center;
+}
 
 .LinkSection {
   margin: 10px;
@@ -30,6 +25,7 @@ body {
   text-align: center;
   margin-top: 200px;
   margin-left: auto;
+  margin-bottom: 200px;
 }
 .ScrollDiv {
   margin: auto;
@@ -42,4 +38,8 @@ body {
   font-size: 40px;
   color: rgb(77, 77, 77);
   margin: auto;
+}
+.SecretH2 {
+  color: rgb(27, 27, 27);
+  font-size: 23px;
 }
