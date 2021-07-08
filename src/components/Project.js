@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import sanityClient from "../client.js";
+import HomeBackground from "./HomeBackground.js";
+import Typewriter from "typewriter-effect";
 export default function Project() {
   const [projectData, setProjectData] = useState(null);
 
@@ -21,11 +23,19 @@ export default function Project() {
   }, []);
   return (
     <main className="ProjectMain">
+      <HomeBackground />
       <section className="ProjectSec-1">
         <h1>Recent Projects </h1>
-        <h2>
-          // check out the description and click the links for demos and repos
-        </h2>
+
+        <div className="ProjectTypewriter">
+          <Typewriter
+            onInit={(typewriter) => {
+              typewriter
+                .typeString("// click the links for demos and repos")
+                .start();
+            }}
+          />
+        </div>
         <section className="ProjectSec-2">
           {projectData &&
             projectData.map((project, index) => (

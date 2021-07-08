@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import sanityClient from "../client.js";
 import { Link } from "react-router-dom";
+import Typewriter from "typewriter-effect";
 
 export default function Post() {
   const [postData, setPost] = useState(null);
@@ -30,7 +31,15 @@ export default function Post() {
       <section className="ArtSection">
         <div className="ArtText">
           <h1>Digital and Generative Design</h1>
-          <h2> // click for detail </h2>
+          <div className="ArtTypewriter">
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter
+                  .typeString("// click for detail and description ")
+                  .start();
+              }}
+            />
+          </div>
         </div>
         <div className="ArtDiv">
           {postData &&

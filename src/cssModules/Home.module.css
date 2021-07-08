@@ -2,14 +2,14 @@ body {
   background-color: black;
   color: white;
 }
-.HomePage {
+/* .HomePage {
   width: 100%;
   background-image: url("https://i.imgur.com/Hxg1q5n.gif");
   background-repeat: no-repeat;
   background-position-x: center;
 
   background-position-y: center;
-}
+} */
 
 .LinkSection {
   margin: 10px;
@@ -29,4 +29,17 @@ body {
 .NameDiv {
   text-align: center;
   margin-top: 200px;
+  margin-left: auto;
+}
+.ScrollDiv {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.HomeScrollSpan {
+  font-family: "Major Mono Display", monospace;
+  font-size: 40px;
+  color: rgb(77, 77, 77);
+  margin: auto;
 }
