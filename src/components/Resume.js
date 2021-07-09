@@ -5,7 +5,7 @@ export default function Resume() {
   return (
     <div className="ResumeDiv">
       <a href="https://github.com/joannsiciliano/" target="_blank">
-        <img src={resume} className="Resume" />
+        <img src={resume} className="Resume" alt="resume" />
       </a>
     </div>
   );

@@ -14,9 +14,9 @@ export default function About() {
           exact
         >
           {" "}
-          <img src={twitter} />
+          <img src={twitter} alt="twitter" />
         </a>
-        <img src={idPicture} className="IDPicture" />
+        <img src={idPicture} className="IDPicture" alt="ID picture" />
         <a
           href="https://www.instagram.com/j_s.jpg/"
           className="SMPic"
@@ -25,7 +25,7 @@ export default function About() {
           target="_blank"
         >
           {" "}
-          <img src={instagram} />
+          <img src={instagram} alt="instagram" />
         </a>
       </div>
       <h2>JoAnn Rose Siciliano</h2>
